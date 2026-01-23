@@ -1,0 +1,81 @@
+🧱 base.css → las reglas del sistema
+
+Este archivo define cómo se ve TODO el sitio, sin importar la página.
+
+Aquí va:
+
+fuente general
+
+colores base
+
+reset / normalización
+
+estilos globales
+
+
+📐 layout.css → la estructura
+
+Define cómo se organizan los bloques grandes.
+
+Aquí va:
+
+header
+
+footer
+
+grids
+
+columnas
+
+contenedores principales
+
+
+🧩 componentes.css → piezas reutilizables
+
+Todo lo que se repite en varias páginas.
+
+Aquí va:
+
+botones
+
+inputs
+
+cards
+
+modales
+
+badges
+
+
+
+
+📚catalogo.css → solo catálogo
+
+Estilos exclusivos del catálogo de libros.
+
+Aquí va:
+
+grid de libros
+
+imagen del libro
+
+precio
+
+botón “Agregar al carrito”
+
+
+
+
+🛒 carrito.css → solo carrito
+
+Estilos exclusivos del carrito.
+
+Aquí va:
+
+tabla o lista de productos
+
+totales
+
+botones eliminar
+
+resumen de compra
