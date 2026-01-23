@@ -11,12 +11,40 @@
     <header>
         <div id="contenedor_presentacion_empresa">
             <img id="logo_empresa" src="../../assets/icons/logo_empresa.png" alt="logo de la empresa">
-            <h1 id="nombre_empresa">Libreria Fantasma</h1>
+            <h1 id="nombre_empresa">Libreria Ficticia</h1>
         </div>
     </header>
     <main>
-        <form>
-            <h2>Inicio de Sesión</h2>
+        <form id="login">
+            <h2 class="fuente_fondo_blanco">Inicio de Sesión</h2>
+            <label class="fuente_fondo_blanco" for="username">Usuario:</label>
+            <input type="text" id="username" name="username" placeholder="Digita tu nombre usuario o telefono" required>
+            <label class="fuente_fondo_blanco" for="password">Contraseña:</label>
+            
+            <div class="password_field">
+                <input type="password" id="password" name="password" placeholder="Digita tu contraseña" required>
+                <button type="button" class="toggle_password">
+                    <img class="img_icono" src="../../assets/icons/ocultar_contrasena.png" alt="Mostrar contraseña">
+                </button>
+            </div>
+            
+            <div id="contenedor_formas_logis">
+                <p class="fuente_fondo_blanco">Continuar con:</p>
+                <button>
+                    <img class="img_icono" src="../../assets/icons/facebook.png" alt="Logiarse con Facebook">
+                </button>
+                <button>
+                    <img class="img_icono" src="../../assets/icons/x.png" alt="Logiarse con X">
+                </button>
+                <button>
+                    <img class="img_icono" src="../../assets/icons/google.png" alt="Logiarse con Google">
+                </button>
+            </div>
+            <button type="submit">Ingresar</button>
+            <div id="contenedor_opciones_cuenta" class="fuente_fondo_blanco">
+                <p class="opciones_cuenta">¿No tienes cuenta? <a href="registrarse.html">Regístrate</a></p>
+                <p class="opciones_cuenta"><a href="recuperar_pass.html">¿Olvidaste tu contraseña?</a></p>
+            </div>
         </form>
     </main>
 </body>

@@ -1,8 +1,66 @@
-form{
+form {
     margin: auto;
     width: 300px;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
     background-color: #f9f9f9;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: inherit;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button {
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+}
+button>.img_icono {
+    width: 32px;
+    height: auto;
+    margin: 0 5px;
+}
+
+/* ToDo: aprender que hace cada propiedad del password */
+.password_field {
+    position: relative;
+}
+
+.password_field input {
+    width: 100%;
+    padding-right: 40px;
+    /* espacio para el icono */
+}
+
+.toggle_password {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+
+#login label {
+    display: block;
+    margin-top: 10px;
 }
