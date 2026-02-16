@@ -1,29 +1,32 @@
-form {
+/* -----> login.html */
+#form_login {
     margin: auto;
-    width: 300px;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #f9f9f9;
-}
-
-input[type="text"],
-input[type="password"] {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
+    padding: 1.8rem;
     border: 1px solid #ccc;
     border-radius: 10px;
+    background-color: #f9f9f9;
+    /* width: 330px; */
+    width: 40%;
+    box-shadow: 0px 4px 30px rgba(255, 255, 255, 0.5);
 }
 
-button[type="submit"] {
+#form_login input {
     width: 100%;
-    padding: 10px;
+    padding: 0.7rem 0.9rem;
+    border-radius: 0.5rem;
+    margin: 0.5rem 0;
+    border: 5px solid #4caf4f4b;
+}
+
+#form_login button[type="submit"] {
+    width: 100%;
+    padding: 0.8rem;
     background-color: #4CAF50;
     color: inherit;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 1rem;
 }
 
 button {
@@ -32,10 +35,12 @@ button {
     padding: 0;
     cursor: pointer;
 }
-button>.img_icono {
-    width: 32px;
+
+button>.login_icono_bootstrap {
+    font-size: 1.5rem;
     height: auto;
     margin: 0 5px;
+    color: #4CAF50;
 }
 
 /* ToDo: aprender que hace cada propiedad del password */
@@ -45,13 +50,13 @@ button>.img_icono {
 
 .password_field input {
     width: 100%;
-    padding-right: 40px;
+    padding-right: 2.8rem;
     /* espacio para el icono */
 }
 
 .toggle_password {
     position: absolute;
-    right: 10px;
+    right: 0.8rem;
     top: 50%;
     transform: translateY(-50%);
     border: none;
@@ -62,5 +67,5 @@ button>.img_icono {
 
 #login label {
     display: block;
-    margin-top: 10px;
+    margin-top: 0.9rem;
 }
