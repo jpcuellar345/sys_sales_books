@@ -1,0 +1,57 @@
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 14px;
+    /* 📱 móvil base */
+}
+
+body {
+    min-height: 100vh;
+    font-family: sans-serif;
+    color: #eaeaea;
+    background: radial-gradient(circle at top,
+            rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 1));
+    height: 100vh;
+}
+
+/* 📦 Container base (móvil) */
+.main_container {
+    width: 100%;
+    padding: 0 1rem;
+}
+
+/* 📲 Tablet */
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+
+    .main_container {
+        max-width: 720px;
+        margin: 0 auto;
+    }
+}
+
+/* 💻 Laptop */
+@media (min-width: 1024px) {
+    html {
+        font-size: 18px;
+    }
+
+    .main_container {
+        max-width: 960px;
+    }
+}
+
+/* 🖥️ Desktop grande (opcional) */
+@media (min-width: 1200px) {
+    .main_container {
+        max-width: 1140px;
+    }
+}
