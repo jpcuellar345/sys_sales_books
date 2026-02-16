@@ -7,9 +7,9 @@ header>#contenedor_presentacion_empresa {
 }
 
 
-#contenedor_presentacion_empresa>#logo_empresa {
-    width: clamp(100px, 6vw, 180px);
-    height: clamp(100px, 4vw, 180px);
+#contenedor_presentacion_empresa> i {
+    font-size: 3rem;
+    color: #00c200fa;
 }
 
 #contenedor_presentacion_empresa>#nombre_empresa {
